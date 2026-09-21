@@ -1,4 +1,4 @@
-# Chave de API — NUNCA commitar
+# Credenciais — NUNCA commitar
 .env
 
 # Python
@@ -13,6 +13,11 @@ build/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Artefatos de execução
+.cache/
+*.faiss
+models_cache/
 
 # macOS
 .DS_Store
