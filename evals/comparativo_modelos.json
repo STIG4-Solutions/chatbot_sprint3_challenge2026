@@ -1,0 +1,199 @@
+{
+  "executado_em": "2026-09-21T20:29:42",
+  "casos_por_execucao": 15,
+  "modelos": [
+    "gpt-oss:120b",
+    "gpt-oss:20b"
+  ],
+  "prompts": [
+    "v2",
+    "v3"
+  ],
+  "matriz": [
+    {
+      "modelo": "gpt-oss:120b",
+      "prompt": "v2",
+      "nota_media": 71.1,
+      "acerto_de_escopo_pct": 80.0,
+      "structured_output_pct": 0.0,
+      "tokens_por_turno": 1004.7,
+      "tokens_com_inferencia": 1004.7,
+      "latencia_media_s": 2.23,
+      "latencia_com_inferencia_s": 2.23,
+      "adequadas": 7,
+      "inadequadas": 4,
+      "parametros": {
+        "modelo": "gpt-oss:120b",
+        "temperature": 0.2,
+        "top_p": 0.9,
+        "max_tokens": 1400,
+        "seed": null
+      }
+    },
+    {
+      "modelo": "gpt-oss:120b",
+      "prompt": "v3",
+      "nota_media": 76.1,
+      "acerto_de_escopo_pct": 73.3,
+      "structured_output_pct": 100.0,
+      "tokens_por_turno": 2487.3,
+      "tokens_com_inferencia": 2487.3,
+      "latencia_media_s": 2.48,
+      "latencia_com_inferencia_s": 2.48,
+      "adequadas": 8,
+      "inadequadas": 4,
+      "parametros": {
+        "modelo": "gpt-oss:120b",
+        "temperature": 0.2,
+        "top_p": 0.9,
+        "max_tokens": 1400,
+        "seed": null
+      }
+    },
+    {
+      "modelo": "gpt-oss:20b",
+      "prompt": "v2",
+      "nota_media": 46.1,
+      "acerto_de_escopo_pct": 46.7,
+      "structured_output_pct": 0.0,
+      "tokens_por_turno": 1035.7,
+      "tokens_com_inferencia": 1035.7,
+      "latencia_media_s": 9.77,
+      "latencia_com_inferencia_s": 9.77,
+      "adequadas": 5,
+      "inadequadas": 9,
+      "parametros": {
+        "modelo": "gpt-oss:20b",
+        "temperature": 0.2,
+        "top_p": 0.9,
+        "max_tokens": 1400,
+        "seed": null
+      }
+    },
+    {
+      "modelo": "gpt-oss:20b",
+      "prompt": "v3",
+      "nota_media": 67.8,
+      "acerto_de_escopo_pct": 73.3,
+      "structured_output_pct": 93.3,
+      "tokens_por_turno": 2463.3,
+      "tokens_com_inferencia": 2463.3,
+      "latencia_media_s": 12.42,
+      "latencia_com_inferencia_s": 12.42,
+      "adequadas": 4,
+      "inadequadas": 5,
+      "parametros": {
+        "modelo": "gpt-oss:20b",
+        "temperature": 0.2,
+        "top_p": 0.9,
+        "max_tokens": 1400,
+        "seed": null
+      }
+    },
+    {
+      "modelo": "gemma4:31b",
+      "prompt": "v2",
+      "nota_media": 65.0,
+      "acerto_de_escopo_pct": 60.0,
+      "structured_output_pct": 0.0,
+      "tokens_por_turno": 1033.2,
+      "tokens_com_inferencia": 1033.2,
+      "latencia_media_s": 2.3,
+      "latencia_com_inferencia_s": 2.3,
+      "adequadas": 5,
+      "inadequadas": 6,
+      "parametros": {
+        "modelo": "gemma4:31b",
+        "temperature": 0.2,
+        "top_p": 0.9,
+        "max_tokens": 1400,
+        "seed": null
+      }
+    },
+    {
+      "modelo": "gemma4:31b",
+      "prompt": "v3",
+      "nota_media": 83.3,
+      "acerto_de_escopo_pct": 80.0,
+      "structured_output_pct": 100.0,
+      "tokens_por_turno": 2484.7,
+      "tokens_com_inferencia": 2484.7,
+      "latencia_media_s": 1.23,
+      "latencia_com_inferencia_s": 1.23,
+      "adequadas": 8,
+      "inadequadas": 3,
+      "parametros": {
+        "modelo": "gemma4:31b",
+        "temperature": 0.2,
+        "top_p": 0.9,
+        "max_tokens": 1400,
+        "seed": null
+      }
+    }
+  ],
+  "varredura_temperatura": [
+    {
+      "modelo": "gpt-oss:120b",
+      "prompt": "v3",
+      "nota_media": 76.1,
+      "acerto_de_escopo_pct": 80.0,
+      "structured_output_pct": 100.0,
+      "tokens_por_turno": 2480.3,
+      "tokens_com_inferencia": 2480.3,
+      "latencia_media_s": 2.11,
+      "latencia_com_inferencia_s": 2.11,
+      "adequadas": 6,
+      "inadequadas": 4,
+      "parametros": {
+        "modelo": "gpt-oss:120b",
+        "temperature": 0.0,
+        "top_p": 0.9,
+        "max_tokens": 1400,
+        "seed": null
+      },
+      "temperature": 0.0
+    },
+    {
+      "modelo": "gpt-oss:120b",
+      "prompt": "v3",
+      "nota_media": 80.6,
+      "acerto_de_escopo_pct": 93.3,
+      "structured_output_pct": 100.0,
+      "tokens_por_turno": 2483.3,
+      "tokens_com_inferencia": 2483.3,
+      "latencia_media_s": 2.37,
+      "latencia_com_inferencia_s": 2.37,
+      "adequadas": 8,
+      "inadequadas": 3,
+      "parametros": {
+        "modelo": "gpt-oss:120b",
+        "temperature": 0.2,
+        "top_p": 0.9,
+        "max_tokens": 1400,
+        "seed": null
+      },
+      "temperature": 0.2
+    },
+    {
+      "modelo": "gpt-oss:120b",
+      "prompt": "v3",
+      "nota_media": 73.9,
+      "acerto_de_escopo_pct": 73.3,
+      "structured_output_pct": 100.0,
+      "tokens_por_turno": 2494.6,
+      "tokens_com_inferencia": 2494.6,
+      "latencia_media_s": 2.44,
+      "latencia_com_inferencia_s": 2.44,
+      "adequadas": 6,
+      "inadequadas": 4,
+      "parametros": {
+        "modelo": "gpt-oss:120b",
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "max_tokens": 1400,
+        "seed": null
+      },
+      "temperature": 0.7
+    }
+  ]
+}
