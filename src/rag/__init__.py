@@ -1,1 +1,1 @@
-"""Pacote do ChargeGrid Intelligence — Sprint 3."""
+"""Pacote do ChargeGrid Intelligence, Sprint 3."""
