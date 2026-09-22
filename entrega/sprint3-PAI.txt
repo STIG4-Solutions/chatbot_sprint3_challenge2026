@@ -1,0 +1,30 @@
+Sprint 3 - Desenvolvimento e Entrega do Chatbot GoodWe
+EV Challenge 2026 | GoodWe x FIAP
+Disciplina: Prompt and Artificial Intelligence
+Turma: 1CCR
+
+INTEGRANTES
+--------------------------------------------------
+Nome                       RM        Turma
+Gabriel Freitas            572943    1CCR
+Giovanni Merlotti          573721    1CCR
+Glauco Kelly               572840    1CCR
+Sergio Augusto Amaral      570184    1CCR
+
+REPOSITORIO
+--------------------------------------------------
+https://github.com/STIG4-Solutions/chatbot_sprint3_challenge2026
+
+RELATORIO DE EVOLUCAO DO PROJETO (PDF)
+--------------------------------------------------
+docs/relatorio_evolucao.pdf
+
+OBSERVACOES
+--------------------------------------------------
+- Evolucao do projeto local das Sprints 1 e 2. O historico Git das entregas
+  anteriores foi preservado integralmente neste repositorio, e o nucleo
+  conversacional original permanece versionado em legacy/ como baseline
+  executavel do comparativo antes/depois.
+- Modelo: gpt-oss:120b via ChatOllama (Ollama Cloud).
+- Nenhuma credencial no codigo ou no historico. Chave via variavel de
+  ambiente, com .env no .gitignore e .env.example como referencia.

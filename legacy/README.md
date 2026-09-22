@@ -1,4 +1,4 @@
-# `legacy/` — Núcleo conversacional das Sprints 1 e 2
+# `legacy/`: núcleo conversacional das Sprints 1 e 2
 
 Esta pasta preserva, **sem qualquer alteração**, o núcleo conversacional entregue
 nas Sprints 1 e 2 do EV Challenge 2026.
@@ -7,6 +7,7 @@ nas Sprints 1 e 2 do EV Challenge 2026.
 |---|---|
 | `chatbot_sprint2.py` | Implementação manual: montagem de mensagens em lista Python, histórico controlado por fatiamento de lista, saída em texto livre. |
 | `ChargeGrid_Intelligence_Sprint2.ipynb` | Notebook de demonstração interativa da Sprint 2. |
+| `arquitetura_sprint2.png` | Diagrama de arquitetura publicado na Sprint 2. |
 
 ## Por que o código legado permanece no repositório
 
@@ -19,7 +20,7 @@ publicados no relatório podem ser reconstruídos a partir deste repositório.
 O arquivo `chatbot_sprint2.py` é tratado como **registro histórico imutável**. A
 execução do baseline não o modifica: o adaptador `evals/legacy_adapter.py` importa dele
 o system prompt, os exemplos few-shot e a base de conhecimento, e reproduz a montagem
-manual de mensagens tal como estava, substituindo apenas o cliente de inferência — para
+manual de mensagens tal como estava, substituindo apenas o cliente de inferência, para
 que legado e refactory sejam medidos sob o mesmo modelo e a arquitetura permaneça como
 única variável do experimento.
 
